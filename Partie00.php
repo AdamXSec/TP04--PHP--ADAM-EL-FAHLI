@@ -1,5 +1,5 @@
 <?php
-// Partie 0 – la première classe
+
 class Voiture {
     public $marque;
     public $couleur;
@@ -22,10 +22,8 @@ $v1->setMarque("Toyota");
 $v1->setCouleur("Noire");
 $v1->afficher();
 
-// 0.1
+
 $v2 = new Voiture();
 $v2->setMarque("Renault");
 $v2->setCouleur("Rouge");
 $v2->afficher();
-
-// 0.3 : non, $v1 et $v2 ne partagent pas $marque : chaque objet a ses propres propriétés.
